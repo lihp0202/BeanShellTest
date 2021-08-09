@@ -18,7 +18,7 @@ public class BeanSell3_prev {
 
         String tk = jsonObject.getString("data");
         System.out.println(tk);
-        System.out.println("做了一些修改new");
+        System.out.println("做了一些修改new,main分支做了修改");
 
         FileWriter fileWriter = new FileWriter("G:\\2Perfmon\\resultfile\\test.csv");
         BufferedWriter bf = new BufferedWriter(fileWriter);
