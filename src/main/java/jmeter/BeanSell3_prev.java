@@ -18,8 +18,8 @@ public class BeanSell3_prev {
 
         String tk = jsonObject.getString("data");
         System.out.println(tk);
-        System.out.println("做了一些修改娃哈哈");
-
+        System.out.println("做了一些修改new,main分支做了修改");
+		System.out.println("test");
         FileWriter fileWriter = new FileWriter("G:\\2Perfmon\\resultfile\\test.csv");
         BufferedWriter bf = new BufferedWriter(fileWriter);
         bf.write(tk+","+tk);
