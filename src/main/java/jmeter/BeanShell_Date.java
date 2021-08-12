@@ -20,7 +20,7 @@ public class BeanShell_Date {
         cal.add(Calendar.DAY_OF_YEAR,+1);//日期加1天
         String orderDate = sdf.format(cal.getTime());//格式化成String格式
         System.out.println(orderDate);
-        cal.add(Calendar.DAY_OF_YEAR,+365);//日期加365天
+        cal.add(Calendar.DAY_OF_YEAR,+362);//日期加365天
         String orderDate1 = sdf.format(cal.getTime());//格式化成String格式
         System.out.println(orderDate1);
 
